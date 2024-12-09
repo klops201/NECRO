@@ -16,7 +16,7 @@ export function SkeletonIdleModel() {
   useEffect(() => {
     // Reset and play the selected animation
     if (actions[currentAnimation]) {
-      Object.values(actions).forEach(action => action.stop())
+      Object.values(actions).forEach(action => action?.stop())
       actions[currentAnimation].play()
     }
   }, [actions, currentAnimation])
