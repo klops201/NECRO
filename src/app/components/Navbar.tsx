@@ -126,7 +126,7 @@ const Navbar = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  {module.external ? (
+                  {/* {module.external ? (
                     <a
                       href={module.href}
                       target="_blank"
@@ -144,7 +144,7 @@ const Navbar = () => {
                     >
                       <span className="text-red-400">{module.label}</span>
                     </Link>
-                  )}
+                  )} */}
                 </motion.div>
               ))}
             </div>
