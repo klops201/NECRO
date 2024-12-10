@@ -65,3 +65,13 @@ export async function GET() {
     )
   }
 }
+
+
+export async function POST(req: Request) {
+  try {
+    // Your logic here
+    return NextResponse.json({ message: 'Success' })
+  } catch (error) {
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 })
+  }
+}
