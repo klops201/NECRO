@@ -65,7 +65,6 @@ const allLinks = [
   },
 ]
 
-'use client'
 
 const GlossyButton: React.FC<GlossyButtonProps> = ({ link, index, totalButtons }) => {
   const [responsiveRadius, setResponsiveRadius] = useState(370);
