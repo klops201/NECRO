@@ -65,14 +65,18 @@ const allLinks = [
   },
 ]
 
+'use client'
+
 const GlossyButton: React.FC<GlossyButtonProps> = ({ link, index, totalButtons }) => {
   const [responsiveRadius, setResponsiveRadius] = useState(370);
+  const [scale, setScale] = useState('scale-100');
 
   useEffect(() => {
     const updateRadius = () => {
       const smallerDimension = Math.min(window.innerWidth, window.innerHeight);
-      const baseRadius = smallerDimension * 0.25; // Adjust this value to control button distance
+      const baseRadius = smallerDimension * 0.25;
       setResponsiveRadius(baseRadius);
+      setScale(window.innerWidth < 640 ? 'scale-75' : 'scale-100');
     };
 
     updateRadius();
@@ -109,7 +113,7 @@ const GlossyButton: React.FC<GlossyButtonProps> = ({ link, index, totalButtons }
         text-red-400
         hover:text-red-300
         hover:shadow-[0_0_20px_rgba(255,0,0,0.2)]
-        ${window.innerWidth < 640 ? 'scale-75' : 'scale-100'}
+        ${scale}
       `}
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -126,8 +130,9 @@ const GlossyButton: React.FC<GlossyButtonProps> = ({ link, index, totalButtons }
         </span>
       </div>
     </motion.a>
-  )
-}
+  );
+};
+
 
 
 const HomePage = () => {
