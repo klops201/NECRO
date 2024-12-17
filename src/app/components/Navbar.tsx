@@ -26,13 +26,13 @@ const rightModules = [
   {
     id: 'pump',
     label: 'Pump.fun',
-    href: 'https://pump.fun/profile/NecroCoin',
+    href: "https://pump.fun/profile/...",
     external: true
   },
   {
     id: 'twitter',
     label: 'Twitter',
-    href: 'https://x.com/Necro_000',
+    href: "https://x.com/...",
     external: true
   }
 ];

@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Strona internetowa/ landing page promująca krypto token
 
-## Getting Started
+## Funkcjonalności
 
-First, run the development server:
+Strona ma za zadanie zachęcić potencjalnych kupców do zainwestowania w krypto token. Oprócz przyciągających uwagę animacji 3d, strona zawiera odniesienia do social mediów.
+W zakładkach Chat me oraz Dance możemy znaleźć kolejno - czat AI posługujący się konkretnym mrocznym/ gotyckim językiem oraz efektywną animację 3d.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologie
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+W aplikacji użyto Next.js wraz z biblioteką React Three Drei do dostosowania wyświetlanych modeli 3d oraz API Open Router do konfiguracji czatu AI.
+https://openrouter.ai/docs/quick-start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Aplikacja została wdrożona na platformie Vercel, korzystając z bazy danych Supabase
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Website/ Landing Page Promoting a Crypto Token
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website aims to encourage potential buyers to invest in the crypto token. In addition to eye-catching 3D animations, the site includes references to social media.
+In the Chat me and Dance tabs, we can respectively find an AI chat that uses a specific dark/gothic language and an effective 3D animation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+The application uses Next.js along with the React Three Drei library for customizing displayed 3D models and the Open Router API for configuring the AI chat.
+https://openrouter.ai/docs/quick-start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application was implemented on the Vercel platform using the Supabase database

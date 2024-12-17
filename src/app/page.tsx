@@ -44,22 +44,17 @@ const allLinks = [
     icon: <IoChatboxEllipsesOutline className="w-6 h-6" />,
   },
   {
-    href: "https://pump.fun/profile/NecroCoin",
+    href: "https://pump.fun/profile/...",
     text: "Pump Fun",
     icon: <FaRocket className="w-6 h-6" />,
   },
-  // {
-  //   href: "https://x.com/AiGuySolana",
-  //   text: "Twitter",
-  //   icon: <TbXboxXFilled className="w-6 h-6" />,
-  // },
   {
     href: "/dance",
     text: "Dance",
     icon: <FaChartLine className="w-6 h-6" />,
   },
   {
-    href: "https://x.com/Necro_000",
+    href: "https://x.com/...",
     text: "Twitter",
     icon: <TbXboxXFilled className="w-6 h-6" />,
   },
